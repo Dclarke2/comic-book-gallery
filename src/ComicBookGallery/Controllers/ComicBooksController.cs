@@ -27,7 +27,7 @@ namespace ComicBookGallery.Controllers
                 }
             };
 
-            return View(comicBook); //<- Passing comicBook model instance to view.
+            return View(comicBook); //<- Passing ComicBook model instance to view method call.
         }
 
 
