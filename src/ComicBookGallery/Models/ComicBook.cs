@@ -28,7 +28,7 @@ namespace ComicBookGallery.Models
             get
             {
                 //'Replace' replaces any spaces in series title with Hypens. First parameter is string to replace followed by what to replace with. 
-                return SeriesTitle.Replace("", "-").ToLower() + "-" + IssueNumber + ".jpg";
+                return SeriesTitle.Replace(" ", "-").ToLower() + "-" + IssueNumber + ".jpg";
             }
             
         }
